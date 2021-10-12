@@ -11,7 +11,7 @@
 ***
 ### Summary
 
-Ract 17 + Typescript, IndexedDB CURD sample 
+Ract 17 + Typescript, IndexedDB app sample 
 
 ***
 ### Setup

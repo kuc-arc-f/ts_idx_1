@@ -76,14 +76,6 @@ console.log( tasks )
         </div>
       </div><br />
       <table className="table table-hover">
-          <thead>
-          <tr>
-              <th>ID</th>
-              <th>Title</th>
-              <th>Conent</th>
-              <th>Actions</th>
-          </tr>
-          </thead>
           <tbody>
               {this.tabRow()}
           </tbody>
