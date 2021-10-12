@@ -21,7 +21,9 @@ Ract 17 + Typescript, IndexedDB app sample
 * yarn start
 
 ***
-### Blog
+### sample URL, github Pages
+
+https://kuc-arc-f.github.io/ts-idx-1/#/
 
 ***
 
