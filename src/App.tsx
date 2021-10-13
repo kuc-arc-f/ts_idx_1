@@ -17,7 +17,10 @@ import TodoCreate from './component/Todo/Create';
 import TodoShow from './component/Todo/Show';
 import TodoEdit from './component/Todo/Edit';
 import TodoImport from './component/Todo/ImportData';
-
+/* book */
+import BookIndex from './component/Book/Index';
+import BookCreate from './component/Book/Create';
+import BookEdit from './component/Book/Edit';
 //
 function App() {
   return (
@@ -39,7 +42,11 @@ function App() {
           <Route path='/todo_show/:id' component={TodoShow}/>
           <Route path='/todo_edit/:id' component={TodoEdit}/>
           <Route path='/todo_import' component={TodoImport}/>
-
+          {/* books */}
+          <Route exact path='/books' component={BookIndex}/>
+          <Route path='/book_create' component={BookCreate}/>
+          <Route path='/book_edit/:id' component={BookEdit}/>
+          
         </div>
       </Router>
     </div>

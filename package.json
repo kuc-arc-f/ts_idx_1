@@ -47,5 +47,6 @@
   },
   "devDependencies": {
     "@types/marked": "^3.0.1"
-  }
+  },
+  "homepage": "./"
 }
